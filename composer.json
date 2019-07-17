@@ -1,0 +1,23 @@
+{
+  "name": "core/gs-wc",
+  "description": "Gray Shield World Championships",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Kotejka DJUN",
+      "email": "xDall.by@gmail.com"
+    }
+  ],
+
+  "require": {
+    "usmanhalalit/pixie": "1.*@dev",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "classmap": ["core"],
+    "psr-4": {
+      "Core\\": "core/"
+    }
+  }
+}
