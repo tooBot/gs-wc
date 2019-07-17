@@ -12,7 +12,7 @@ class ParticipantsRepository
     public function __construct()
     {
         //не забыть поправить при заливке
-        $this->adapter = new DBConnection('dbDev');
+        $this->adapter = new DBConnection('dbProd');
         $this->connection = $this->adapter->getConnection();
     }
 

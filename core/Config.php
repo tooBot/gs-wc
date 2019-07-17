@@ -5,7 +5,8 @@ namespace core;
 class Config
 {
     private static $config = [
-        'apiKey' => '89210d6829',
+        'apiDevKey' => '89210d6829',
+        'apiProdKey' => '8e9f7d57c1',
 
         'dbDev' => [
             'driver'    => 'mysql',

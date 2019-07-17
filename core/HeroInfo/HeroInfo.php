@@ -8,7 +8,7 @@ class HeroInfo extends AbstractClient
     {
         $result = [];
 
-        $apiKey = Config::get('apiKey');
+        $apiKey = Config::get('apiProdKey');
         $path = 'http://api.ereality.ru/' . $apiKey . '/pinfo/?' . (is_numeric($hero) ? 'h_id=' : 'h_name=') . $hero;
         $pageSource = parent::getPageSource($path);
         $heroData = unserialize($pageSource);

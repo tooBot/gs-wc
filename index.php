@@ -7,8 +7,8 @@ require 'vendor/autoload.php';
 
 <html>
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="services/wcAchivments/css/bootstrap.css">
+    <link rel="stylesheet" href="services/fightsStata/css/normilize.css">
 </head>
 
 <body>
